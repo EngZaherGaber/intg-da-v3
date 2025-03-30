@@ -3,7 +3,7 @@
 client_id = "bec21bf3eeddc105fe814847ec70c324"
 name = "IntgDaV3"
 handle = "intgdav3"
-application_url = "https://charity-westminster-wonder-electronics.trycloudflare.com"
+application_url = "https://intg-da-v3.fly.dev"
 embedded = true
 
 [build]
@@ -23,13 +23,13 @@ api_version = "2025-01"
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "write_products"
+scopes = "write_products,read_products"
 
 [auth]
 redirect_urls = [
-  "https://charity-westminster-wonder-electronics.trycloudflare.com/auth/callback",
-  "https://charity-westminster-wonder-electronics.trycloudflare.com/auth/shopify/callback",
-  "https://charity-westminster-wonder-electronics.trycloudflare.com/api/auth/callback"
+  "https://intg-da-v3.fly.dev/auth/callback",
+  "https://intg-da-v3.fly.dev/auth/shopify/callback",
+  "https://intg-da-v3.fly.dev/api/auth/callback"
 ]
 
 [pos]
